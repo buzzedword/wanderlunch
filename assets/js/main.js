@@ -5,7 +5,7 @@ require.config({
   }
 });
 require(["jquery"],function($){
-  var directions = ["north", "south", "east", "west"];
+  var directions = ["north", "south"];
   var trains = ["1", "6", "A", "F", "N"];
   var stops = [1,2,3,4,5,6,7];
 
