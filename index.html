@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wanderlunch - Lunch is a journey, not a destination</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+</head>
+<body>
+<div class="row">
+  <div class="col-12 col-lg-12 headers">
+    <h1>Wanderlunch</h1>
+    <h2>Lunch is a journey, not a destination</h2>
+  </div>
+</div>
+<div class="row lunch hidden-lg">
+  <img src="images/wanderlunch-button.png" class="wanderlunch" />
+</div>
+
+<div class="row">
+  <div class="col-1 col-lg-1"></div>
+  <div class="col-10 col-lg-10 fields">
+    <div class="col-lg-1">
+      <p>Go</p>
+    </div>
+    <div class="col-lg-2">
+      <p class="direction"></p>
+    </div>
+    <div class="col-lg-3">
+      <p>On the</p>
+    </div>
+    <div class="col-lg-2 line-img">
+      <img class="line img-responsive" src=""/>
+    </div>
+    <div class="col-lg-1">
+      <p>For</p>
+    </div>
+    <div class="col-lg-1">
+      <p class="stops"></p>
+    </div>
+    <div class="col-lg-1">
+      <p class="pluralize"></p>
+    </div>
+  </div>
+</div>
+
+<div class="row lunch visible-lg">
+  <img src="images/wanderlunch-button.png" class="wanderlunch" />
+</div>
+
+<!-- DEV USE -->
+<script data-main="assets/js/main" src="assets/libs/require.js"></script>
+<script>
+require.config({ urlArgs: "v=" +  (new Date()).getTime() });
+</script>
+<script src="http://localhost:35729/livereload.js"></script>
+<!-- END DEV USE -->
+
+<!-- PRODUCTION USE -->
+<!--
+<script data-main="assets/prod_build" src="assets/libs/require.js"></script>
+-->
+<!-- END PRODUCTION USE -->
+
+</body>
+</html>
+

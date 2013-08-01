@@ -1,0 +1,16 @@
+{
+  "name": "wanderlunch",
+  "version": "0.1.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "git://github.com/twbs/bootstrap.git#~3.0.0-rc1",
+    "jquery": "1.10.*"
+  }
+}
