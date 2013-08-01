@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8">
 <title>Wanderlunch - Lunch is a journey, not a destination</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
 <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen"/>
 <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 <div class="row">
@@ -51,18 +53,18 @@
 </div>
 
 <!-- DEV USE -->
-<script data-main="assets/js/main" src="assets/libs/require.js"></script>
-<script>
+<!-- <script data-main="assets/js/main" src="assets/libs/require.js"></script> -->
+<!--<script>
 // require.config({ urlArgs: "v=" +  (new Date()).getTime() });
 require.config({ urlArgs: "v=1" });
-</script>
+</script> -->
 <!-- <script src="http://localhost:35729/livereload.js"></script> -->
 <!-- END DEV USE -->
 
 <!-- PRODUCTION USE -->
-<!--
-<script data-main="assets/prod_build" src="assets/libs/require.js"></script>
--->
+
+<script data-main="assets/js/prod_build" src="assets/libs/require.js"></script>
+
 <!-- END PRODUCTION USE -->
 
 </body>

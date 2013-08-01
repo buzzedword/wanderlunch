@@ -37,6 +37,10 @@ require(["jquery"],function($){
   $(function(){
     roll();
 
+    if (typeof window.scrollTo !== 'undefined') {
+      window.scrollTo(0, 1);
+    }
+
     $('.wanderlunch').on('click', roll);
   });
 });
